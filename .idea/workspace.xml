@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
+    <list default="true" id="82bd08a2-b6e1-4009-94ea-85fdaff4d916" name="Changes" comment="Добавлен Allure reports">
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MtsCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson13/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson13/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_1/FactorialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson14_2/FactorialTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-
+        <entry key="$PROJECT_DIR$" value="Lesson_14_junit_5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,30 +65,71 @@
     "Application.Main.executor": "Debug",
     "Application.Main10.executor": "Run",
     "Application.Main12.executor": "Debug",
-
+    "Application.PhoneBook.executor": "Run",
+    "Application.UniqueWordsCounter.executor": "Debug",
+    "JUnit.MtsCheck.executor": "Debug",
+    "JUnit.MtsCheck.testContinue.executor": "Run",
+    "JUnit.MtsCheck.testLogo.executor": "Run",
+    "JUnit.MtsCheck.testOpen.executor": "Run",
+    "JUnit.MtsCheck.testSelectInternetTabAndVerifyPlaceholders.executor": "Run",
+    "Maven.Lesson4 [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.FactorialTest.executor": "Run",
+    "git-widget-placeholder": "Lesson__18",
+    "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/shaik/IdeaProjects/Aston_project/Aston_HomeWork",
     "onboarding.tips.debug.path": "C:/Users/shaik/IdeaProjects/Lesson4/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.folding"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
 
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.lesson15" />
-      <option name="MAIN_CLASS_NAME" value="org.example.lesson15.MtsCheck" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MtsCheck.testContinue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MtsCheck" />
       <option name="METHOD_NAME" value="testContinue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-
+    <configuration name="MtsCheck.testLogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MtsCheck" />
+      <option name="METHOD_NAME" value="testLogo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MtsCheck.testOpen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MtsCheck" />
+      <option name="METHOD_NAME" value="testOpen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MtsCheck.testSelectInternetTabAndVerifyPlaceholders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MtsCheck" />
+      <option name="METHOD_NAME" value="testSelectInternetTabAndVerifyPlaceholders" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -299,15 +349,7 @@
       <option name="project" value="LOCAL" />
       <updated>1733668607234</updated>
     </task>
-    <task id="LOCAL-00026" summary="Вычисление факториала числа (TestNG)">
-      <option name="closed" value="true" />
-      <created>1734772594555</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1734772594555</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,9 +378,15 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ID_WIDTH">
+              <option name="FILTERS">
                 <map>
-
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Lesson_14_junit_5" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -372,7 +420,7 @@
     <MESSAGE value="Создан класс Cat и Dog с наследованием от класса Animal. Реализован подсчет созданных животных. У котов реализована возможность есть из миски." />
     <MESSAGE value="Добавлен интерфейс Shape" />
     <MESSAGE value="Исправлена структура кода." />
-    <MESSAGE value="Вычисление факториала числа (TestNG)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вычисление факториала числа (TestNG)" />
+    <MESSAGE value="Добавлен Allure reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен Allure reports" />
   </component>
 </project>
